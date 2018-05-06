@@ -1,0 +1,6 @@
+{
+  "_comment": "AWS credentials & settings, for US West (Oregon) region",
+  "accessKeyId": "<myAccessKey>",
+  "secretAccessKey": "<mySecretAccessKey>",
+  "region": "us-west-2"
+}

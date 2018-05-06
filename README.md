@@ -1,2 +1,2 @@
 # webapp-skeleton
-Barebones structure for a website using Node.js, Express.js &amp; AWS' DynamoDB
+Barebones structure for a webapp using Node.js, Express.js &amp; AWS DynamoDB

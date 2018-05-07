@@ -1,7 +1,10 @@
 # webapp-skeleton
 Barebones structure for a webapp using Node.js, Express.js &amp; AWS DynamoDB
 
-Only app.js, package.json, and config.json should be in your main directory.
+## Main project directory should only contain:
+* app.js: the main file, which initializes the webapp and starts the server
+* package.json
+* config.json
 
 All other files should be in specific folders:
 

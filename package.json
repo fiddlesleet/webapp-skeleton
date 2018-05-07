@@ -2,6 +2,7 @@
   "_comment": "Use npm install package.json to install download all required modueles",
   "name": "HelloWorld",
   "description": "Skeleton for reviewing webapp structure",
+  "version": "0.0.1",
   "dependencies": {
     "express": "*",
     "ejs": "*",

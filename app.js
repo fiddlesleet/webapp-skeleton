@@ -9,7 +9,7 @@ app.use(express.bodyParser());
 app.use(express.logger("default"));
 
 // since it would be cumbersome to create a route for every single static asset,
-// place all .css, .js and image files in one directory, in this case named public
+// place all .css, client-side .js and image files in one directory, in this case named public
 app.use(express.static('public'))
 
 /*

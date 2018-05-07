@@ -25,6 +25,7 @@ var postResults = function(req, res) {
   // note: myInputField is defined in views/main.ejs
   var userInput = req.body.myInputField;
   // the DB lookup function has a callback that receives the results or error msg
+  // the function called within db.lookup is its callback function
   db.lookup(userInput, "german", function(data, err) {
     if (err) {
       res.render('results.ejs', {theInput: userInput,
